@@ -1,65 +1,5 @@
 PLP Python Week 8 — Toolkit Plan
 
-1. TOOLS
-
-Tool 1: Simple Calculator
-The calculator asks the user for two numbers and an operation, then displays the result.
-
-Tool 2: To-Do List
-The to-do list allows the user to add tasks, view all tasks, and remove tasks using a Python list.
-
-Tool 3: Number Checker
-The number checker tells the user whether a number is positive, negative, or zero, and whether it is even or odd.
-
-2. EXACT MENU TEXT
-
-Welcome to My Python Toolkit!
-
-Choose a tool:
-1. Simple Calculator
-2. To-Do List
-3. Number Checker
-4. Quit
-
-Enter your choice (1-4):
-
-3. PYTHON CONCEPTS
-
-Simple Calculator:
-- Variables
-- User input
-- Type conversion using float()
-- Conditional statements
-- Arithmetic operators
-- F-strings
-
-To-Do List:
-- Lists
-- Variables
-- User input
-- List methods: append() and pop()
-- Loops
-- Conditional statements
-- F-strings
-
-Number Checker:
-- Variables
-- User input
-- Type conversion using int()
-- Conditional statements
-- Modulo operator (%)
-- F-strings
-
-Main Menu:
-- while loop
-- if, elif, and else
-- User input
-- Friendly messages
-- Program exit using break
-
-PLP Python Week 8 — Task Explanation
-PLP Python Week 8 — My Python Toolkit
-
 Project Overview
 
 My Python Toolkit is a menu-driven command-line program created for the PLP Python Week 8 assignment. It provides three tools: a simple calculator, a to-do list, and a number checker. The user can select a tool, use it, and return to the main menu until they choose to quit.
@@ -119,6 +59,7 @@ On Windows, you can also try py toolkit.py.
 Choose an option from the menu and follow the instructions.
 
 Reflection
+## Reflection
 
-The hardest part of this project was [describe the part you found most challenging]. The bug that took me the longest to fix was [describe a real bug you encountered and how you fixed it]. I learned how loops and conditional statements work together to make a menu-driven program. I also practised using lists to store information that changes while the program runs. Adding input validation helped me understand how to prevent common errors. I improved my ability to organize a program into functions and write readable code. If I had one more week, I would add [describe a realistic improvement, such as saving tasks to a file so they remain available after the program closes].
+The most challenging part of this project was designing the menu loop so that users could select different tools and return to the main menu without restarting the program. The bug that took me the longest to fix was handling invalid user input, especially when someone entered letters instead of numbers or selected a task number that did not exist. I fixed these issues by using `try` and `except` blocks to handle invalid numeric input and conditional statements to validate menu choices and task numbers. I also learned how to use Python lists with `append()` and `pop()` to add and remove tasks safely. This project helped me understand how loops, functions, conditionals, and user input work together to create an interactive program. I improved my coding skills by organizing the tools into separate functions and adding comments and friendly messages to make the code easier to understand. If I had one more week, I would add file storage so that tasks could be saved and loaded even after the program closes, as well as a feature that allows users to mark completed tasks.
   
